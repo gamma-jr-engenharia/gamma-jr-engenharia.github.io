@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+
+}
+
+/***** HEADER *****/
+.box1 {
+    background-color: #212121;    
+}
+
+header {
+    background-color: #212121;
+    margin: 100px 40px 100px 40px; 
+}
+
+.head img {
+    float: left;
+    width: 235px;
+    height: 335px;
+}
+
+.box2 h1, h2 {
+    margin: auto;
+    position: relative;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box2 h1 {
+    font-size: 72px;
+    color: #00F2E3;   
+}
+
+.box2 h2 {
+    font-size: 64px;
+    color: #ffffff;
+}
+
+
+/***** NAVBAR *****/
+
+#navbar {
+    overflow: hidden;
+    padding: 8px;
+    list-style: none;
+    background-color: #00F2E3;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+#navbar li {
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+}
+
+#navbar a {
+  display: block;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  color: #212121;
+}
+
+#navbar a:hover::before {
+  width: 100%;
+}
+
+.content {
+  padding: 80px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.sticky + .content {
+  padding-top: 240px;
+}
+
+
+/***** INSCRIÇÕES *****/
+ 
+#inscricao {
+    padding: 100px 160px 40px 160px;
+    background-color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#inscricao  h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 2px 2px #212121;
+    color: #00F2E3;
+}
+
+#inscricao p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+#inscricao p a {
+    text-decoration: none;
+    color: #1b7e8e;
+}
+
+#inscricao ul {
+    padding: 0 24px;
+    list-style-type:disc;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+/***** TESTES *****/
+#testes {
+    padding: 40px 160px 40px 160px;
+    background-color: #212121;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#testes   h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #121212;
+    color: #00F2E3;
+}
+
+#testes  p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#testes  p a {
+    text-decoration: none;
+    color: #1b7e8e;
+}
+
+#testes ul {
+    padding: 0 24px;
+    list-style-type:disc;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+/***** DINÂMICAS *****/
+#dinamica {
+    padding: 40px 160px 40px 160px;
+    background-color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#dinamica  h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 2px 2px #212121;
+    color: #00F2E3;
+}
+
+#dinamica p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+#dinamica p a {
+    text-decoration: none;
+    color: #1b7e8e;
+}
+
+#dinamica ul {
+    padding: 0 24px;
+    list-style-type:disc;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+/***** CASE *****/
+#case {
+    padding: 40px 160px 40px 160px;
+    background-color: #212121;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#case   h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #121212;
+    color: #00F2E3;
+}
+
+#case  p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#case  h5 {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: #1b7e8e;
+    text-shadow: 0px 4px 4px #121212;
+}
+
+#case  h4 {
+    text-align: right;
+    color: #1b7e8e;
+    text-shadow: 0px 4px 4px #121212;
+}
+
+#case  h4 a {
+    text-align: right;
+    color: #1b7e8e;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px #121212;
+}
+
+#case ul {
+    padding: 0 24px;
+    list-style-type:disc;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/***** ENTREVISTA *****/
+#entrevista {
+    padding: 40px 160px 40px 160px;
+    background-color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#entrevista  h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 2px 2px #212121;
+    color: #00F2E3;
+}
+
+#entrevista p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+#entrevista p a {
+    text-decoration: none;
+    color: #1b7e8e;
+}
+
+#entrevista ul {
+    padding: 0 24px;
+    list-style-type:disc;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+/***** DIVULGAÇÃO *****/
+#divulgacao {
+    padding: 40px 160px 40px 160px;
+    background-color: #212121;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#divulgacao   h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px #121212;
+    color: #00F2E3;
+}
+
+#divulgacao p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+/***** IMERSÃO *****/
+#surpresa {
+    padding: 40px 160px 40px 160px;
+    background-color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    font-variant-caps: small-caps;
+}
+ 
+#surpresa  h1 {
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 40px;
+    text-shadow: 0px 2px 2px #212121;
+    color: #00F2E3;
+}
+
+#surpresa p {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #212121;
+}
+
+/***** FOOTER *****/
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px 160px 20px;
+  background-color: #00F2E3;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-variant-caps: small-caps;
+  text-align: center;
+  font-size: 24px;
+  color: #ffff;
+  text-shadow: 0px 2px 2px #121212;
+}
+
